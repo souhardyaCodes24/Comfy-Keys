@@ -20,6 +20,14 @@
 
 ![Dashboard](screenshots/dashboard.png)
 
+**Log In page / Profile**
+
+![Dashboard](screenshots/loginpage.png)
+
+**Sign Up page / Profile**
+
+![Dashboard](screenshots/signuppage.png)
+
 ---
 
 ## 📋 Table of Contents
