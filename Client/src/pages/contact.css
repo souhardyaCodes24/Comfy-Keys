@@ -1,0 +1,17 @@
+/* Custom styles for extra refinements */
+.contact-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #7b2cbf;
+    box-shadow: 0 0 8px rgba(123, 44, 191, 0.2);
+  }
+  

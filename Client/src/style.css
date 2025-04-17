@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Tailwind: font-primary */
+    background-color: #e5e7eb; /* Tailwind: bg-gray-200 */
+  }
+  
+  /* Container (if used in your markup) */
+  .container {
+    padding: 1rem; /* Default padding */
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      padding: 2rem; /* lg:2rem as per config */
+    }
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    width: 100%; /* Tailwind: w-full */
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1024px) {
+    .dropdown {
+      max-width: 296px; /* Tailwind: lg:max-w-[296px] */
+    }
+  }
+  
+  /* Dropdown Button */
+  .dropdown-btn {
+    display: flex; /* Tailwind: flex */
+    height: 64px; /* Tailwind: h-[64px] */
+    align-items: center; /* Tailwind: items-center */
+    padding-left: 18px;
+    padding-right: 18px; /* Tailwind: px-[18px] */
+    border: 1px solid #d1d5db; /* Use a suitable border color; adjust if needed */
+    border-radius: 0.5rem; /* Tailwind: rounded-lg (approx. 0.5rem) */
+  }
+  
+  /* Dropdown Icon Primary */
+  .dropdown-icon-primary {
+    font-size: 1.5rem; /* Tailwind: text-2xl (1.5rem) */
+    margin-right: 18px; /* Tailwind: mr-[18px] */
+    color: #7F56D9; /* Tailwind: text-violet-700 */
+  }
+  
+  /* Dropdown Icon Secondary */
+  .dropdown-icon-secondary {
+    font-size: 1.5rem; /* Tailwind: text-2xl */
+    margin-left: auto; /* Tailwind: ml-auto */
+    color: #7F56D9; /* Tailwind: text-violet-700 */
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    padding-top: 2rem;
+    padding-bottom: 2rem; /* Tailwind: py-8 (8 * 0.25rem = 2rem) */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; /* Tailwind: px-6 (6 * 0.25rem = 1.5rem) */
+    font-size: 15px; /* Tailwind: text-[15px] */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08); /* Tailwind: shadow-md as configured */
+    background-color: #ffffff; /* Tailwind: bg-white */
+    position: absolute;
+    width: 100%; /* Tailwind: w-full */
+    z-index: 10; /* Tailwind: z-10 */
+    list-style: none; /* Tailwind: list-none */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; /* Tailwind: rounded-b-lg */
+  }
+  
+.app-container {
+    max-width: 1440px; /* Equivalent to Tailwind's max-w-[1440px] */
+    margin-left: auto; /* Equivalent to Tailwind's mx-auto */
+    margin-right: auto;
+    background-color: #ffffff; /* Equivalent to Tailwind's bg-white */
+  }

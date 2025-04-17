@@ -1,0 +1,36 @@
+.dashboard-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  width: 100%;
+  padding: 1rem;
+}
+
+.header h2 {
+  margin-bottom: 0.2rem;
+}
+
+.reviews-section {
+  margin-top: 2rem;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.review-input {
+  min-height: 80px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.submit-button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

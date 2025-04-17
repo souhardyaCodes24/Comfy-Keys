@@ -1,0 +1,111 @@
+/* Container to center the signup box on screen */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* or 100vh for full screen */
+    background-color: #f9fafb; /* Light background */
+  }
+  
+  /* The "card" / box holding the form */
+  .signup-box {
+    background-color: #fff;
+    border: 1px solid #e5e7eb; /* light gray border */
+    border-radius: 0.5rem;
+    width: 350px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  /* Profile image at the top (optional) */
+  .signup-profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+  
+  /* Title and subtitle styling */
+  .signup-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #1f2937; /* dark text color */
+  }
+  
+  .signup-subtitle {
+    font-size: 0.95rem;
+    color: #6b7280; /* gray text color */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form layout */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  /* Labels */
+  .signup-label {
+    text-align: left;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #4b5563; /* gray color */
+    font-weight: 500;
+  }
+  
+  /* Inputs */
+  .signup-input {
+    padding: 0.5rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .signup-input:focus {
+    border-color: #7c3aed; /* purple focus */
+  }
+  
+  /* Primary button */
+  .btn-primary {
+    background-color: #8b5cf6; /* purple */
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7c3aed;
+  }
+  
+  /* Secondary button */
+  .btn-secondary {
+    background-color: #fff;
+    color: #8b5cf6;
+    padding: 0.75rem;
+    border: 2px solid #8b5cf6;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #8b5cf6;
+    color: #fff;
+  }
+  
