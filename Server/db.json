@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "d41a",
+      "fullName": "rudy nath",
+      "email": "rudynath24@gmail.com",
+      "phone": "9998887776",
+      "password": "87654321"
+    },
+    {
+      "id": 1,
+      "fullName": "Souhardya Saha",
+      "email": "souhardya.saha2023@vitstudent.ac.in",
+      "phone": "8420216243",
+      "password": "123"
+    },
+    {
+      "id": 1,
+      "fullName": "abhinaba paul",
+      "email": "paul123@gmail.com",
+      "phone": "999888775",
+      "password": "321"
+    }
+  ]
+}
